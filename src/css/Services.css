@@ -1,0 +1,92 @@
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#service-header{
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  ;
+}
+
+.service-card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.service-description {
+  margin-top: 10px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: auto; /* Pushes the image to the left */
+  margin-left: auto; /* Centers the image horizontally */
+}
+
+.service-slots,
+.service-price {
+  margin-top: 10px;
+}
+
+.book-now-btn {
+  margin-top: 10px;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.submit-btn {
+  background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.divider {
+  margin-top: 20px;
+}

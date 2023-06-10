@@ -1,0 +1,51 @@
+.working-hours-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #403B4A;
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);
+    background: linear-gradient(to right, #E7E9BB, #403B4A);
+    color: #fff;
+  }
+  
+  .working-hours-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .working-hours-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .working-hours-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 250px;
+    position: relative;
+  }
+  
+  .line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .day {
+    font-weight: bold;
+  }
+  
+  .hours {
+    margin-left: 20px;
+  }
+  

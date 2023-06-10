@@ -1,0 +1,76 @@
+.comment-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-form {
+    margin-bottom: 20px;
+  }
+  
+  .comment-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  .comment-form button {
+    background-color: #f54291;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-list li .comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .comment-list li .comment-author {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .comment-list li .comment-date {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .comment-list li .comment-body {
+    font-size: 16px;
+    color: #555;
+  }
+  
